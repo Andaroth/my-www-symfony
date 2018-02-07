@@ -1,0 +1,43 @@
+// Fonts -------------------------------------------
+@font-face
+  font-family: "Ubuntu"
+  src: url("../webfonts/Ubuntu.ttf")
+@font-face
+  font-family: "Roboto"
+  src: url("../webfonts/Roboto-Light.ttf")
+// Imports  -------------------------------------------
+// Keyframes  -------------------------------------------
+// Colors -------------------------------------------
+$nice: #2e3133
+$lightnice: #63696d
+$detail: #CC9A54
+$light: white
+$light03: rgba(255,255,255,.3)
+$light07: rgba(255,255,255,.7)
+$light09: rgba(255,255,255,.9)
+$dark: black
+$dark03: rgba(0,0,0,.3)
+$dark07: rgba(0,0,0,.7)
+// Var -------------------------------------------
+$maxw: 800px
+$marginfoot: 810px
+$mviewpw: 850px
+$viewpw: 1000px
+$bradius: 4px
+$btnh: 45px
+$btnw: 200px
+$ubuntu: "Ubuntu", sans-serif
+$roboto: "Roboto", sans-serif
+// Grids -------------------------------------------
+@mixin two-c
+  width: ($maxw/2)-5px !important
+  &:nth-child(2n)
+    margin: 0 0 10px 0
+@mixin three-c
+  width: ($maxw/3)-6.666px
+  &:nth-child(3n)
+    margin: 0 0 10px 0
+@mixin four-c
+  width: ($maxw/4)-7.5px
+  &:nth-child(4n)
+    margin: 0 0 10px 0

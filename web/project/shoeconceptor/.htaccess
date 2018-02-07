@@ -1,0 +1,14 @@
+DirectoryIndex index.html index.php
+
+RewriteEngine On
+	RewriteRule ^(.*)\.html$ $1.php [L]
+	RewriteRule ^(.*)\.htm$ $1.php [L]
+    
+Options -Indexes
+
+ErrorDocument 401 "You can't just walk around like this ! "
+ErrorDocument 403 "You can't just walk around like this ! "
+ErrorDocument 404 "You can't just walk around like this ! "
+ErrorDocument 406 "You can't just walk around like this ! "
+ErrorDocument 500 "You can't just walk around like this ! "
+ErrorDocument 503 "You can't just walk around like this ! "

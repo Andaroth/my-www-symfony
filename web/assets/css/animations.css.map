@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "wBAEI,SAAS,CAAE,QAAQ,KAEnB,SAAS,CAAE,UAAS,MAEpB,SAAS,CAAE,QAAQ,wBAGnB,KAAK,CAAE,IAAK,CACZ,SAAS,CAAE,uBAAuB,KAElC,KAAK,CAAE,IAAK,CACZ,SAAS,CAAE,yBAAwB,MAEnC,KAAK,CAAE,IAAK,CACZ,SAAS,CAAE,uBAAuB",
+"sources": ["../sass/animations.sass"],
+"names": [],
+"file": "animations.css"
+}

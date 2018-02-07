@@ -1,0 +1,174 @@
+{% extends "WebsitePortfolioBundle:Default:template/base.html.twig" %}
+
+{% block title %}{{ parent() }} - {{page_title}}{% endblock %}
+
+{% block pagenav %}
+<li><a class="scrollback" href="#screensmatrix">Web<span class="nomobile"> &amp; Apps</span></a></li>
+    <li><a class="scrollback" href="#stillwonders">Photo<span class="nomobile">graph</span>s</a></li>
+    <li><a class="scrollback" href="#animhearted">Videos</a></li>
+{% endblock %}
+
+{% block head_slickjs %}
+  <link rel="stylesheet" href="{{asset('assets/plugins/slick/slick.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/plugins/slick/slick-theme.css')}}">
+{% endblock %}
+
+{% block slickjs %}
+  <script src="{{asset('assets/plugins/slick/slick.min.js')}}"></script>
+{% endblock %}
+
+{% block sections %}
+  <section id="mywork" class="strip mywork">
+      <h2><i class="fa fa-code" aria-label="code-tag"><span class="jhide">&lt;&sol;&gt;</span></i> Web's matrix</h2>
+      <h3>Discover the products of my love of coding.</h3>
+    </section>
+    <section id="screensmatrix" class="screensmatrix fullh">
+      <h2 class="hidden">My creations</h2>
+      <div id="webslide" class="webslide center slider">
+        <div class="tile-slide">
+          <a href="../project/shoeconceptor" class="tile">
+            <div class="description">
+              <h3>Shoe conceptor</h3>
+              <p>Custom Converse maker tool with Stripe integration, handmade from A to Z. <small>(It's just a demonstration)</small></p>
+            </div>
+            <img src="{{asset('assets/img/normal/shoeconceptor.png')}}" alt="Shoe conceptor" />
+          </a>
+        </div>
+        <div class="tile-slide">
+          <a href="https://agenceduweb.be/" class="tile">
+           <div class="description">
+              <h3>l'Agence Du Web</h3>
+              <p>The Web Agency I co-founded with associates. This website is made with WordPress, one of my specialties. </p>
+            </div>
+            <img src="{{asset('assets/img/mini/agencedu.png')}}" alt="l'Agence Du Web" />
+          </a>
+        </div>
+        <div class="tile-slide">
+          <a href="https://luge.studio/" class="tile">
+            <div class="description">
+              <h3>Lüge Studio</h3>
+              <p>Production company made by my associates. I bought and edited a template and then made some PHP integration. </p>
+            </div>
+            <img src="{{asset('assets/img/mini/lugestudio.jpg')}}" alt="Lüge Studio" />
+          </a>
+        </div>
+        <div class="tile-slide">
+          <a href="../learning/curiculum" class="tile">
+            <div class="description">
+              <h3>My online CV</h3>
+              <p>A little exercice I made at BeCode in HTML and CSS, it was really relaxing.</p>
+            </div>
+            <img src="{{asset('assets/img/normal/curiculum.png')}}" alt="My online CV" />
+          </a>
+        </div>
+        <div class="tile-slide">
+          <a href="https://andaroth.github.io/Learning-Environment/7-exercice-star-wars/" class="tile">
+           <div class="description">
+              <h3>Star Wars Scroller</h3>
+              <p>A little HTML and CSS exercice made at BeCode. </p>
+            </div>
+            <img src="{{asset('assets/img/mini/starwars.jpg')}}" alt="Star Wars Scroller" />
+          </a>
+        </div>
+        <div class="tile-slide">
+          <a href="https://andaanda.tumblr.com/" class="tile">
+            <div class="description">
+              <h3>My Tumblr</h3>
+              <p>For this one I fully customised an existing template with the Tumblr's editor.</p>
+            </div>
+            <img src="{{asset('assets/img/mini/owntumblr.jpg')}}" alt="My own Tumblr" />
+          </a>
+        </div>
+        <div class="tile-slide">
+          <a href="https://charlywellz.com/" class="tile">
+            <div class="description">
+              <h3>Charly Wellz</h3>
+              <p>Custom brand's webshop I made with WooCommerce. I used to work with this sunglasses brand.</p>
+            </div>
+            <img src="{{asset('assets/img/mini/charly.jpg')}}" alt="CharlyWellz" />
+          </a>
+        </div>
+        <div class="tile-slide">
+          <a href="https://www.trimala.net/" class="tile">
+            <div class="description">
+              <h3>Trimala Network</h3>
+              <p>A friend of mine once came with an Ultima Online server and wanted a website for it's community. Here what I made for him.</p>
+            </div>
+            <img src="{{asset('assets/img/mini/trimala.png')}}" alt="Trimala Network" />
+          </a>
+        </div>
+      </div>
+      <a href="#stillwonders" class="btn shadebtn scrollback">My photos</a>
+    </section>
+    <section id="myphotos" class="strip myphotos">
+      <h2><i class="fa fa-camera-retro" aria-label="camera"><span class="jhide">&#128247;</span></i> Still wonders</h2>
+      <h3>The admiration of a moment, a scene, an emotion</h3>
+    </section>
+    <section id="stillwonders" class="stillwonders">
+      <h2 class="hidden">My photographs</h2>
+      <div id="viewphotoslide" class="viewphotoslide">
+        <div class="tile-slide">
+          <img src="{{asset('assets/img/normal/heavier.jpg')}}" alt="Heavier" />
+        </div>
+        <div class="tile-slide">
+          <img src="{{asset('assets/img/normal/golden.jpg')}}" alt="Golden" />
+        </div>
+        <div class="tile-slide">
+          <img src="{{asset('assets/img/normal/guardian.jpg')}}" alt="Guardian" />
+        </div>
+        <div class="tile-slide">
+          <img src="{{asset('assets/img/normal/stopit.jpg')}}" alt="Stop it" />
+        </div>
+      </div>
+      <div id="photoslide" class="photoslide center slider nomobile">
+        <div class="tile-slide">
+          <img src="{{asset('assets/img/mini/heavier.jpg')}}" alt="Heavier" />
+        </div>
+        <div class="tile-slide">
+          <img src="{{asset('assets/img/mini/golden.jpg')}}" alt="Golden" />
+        </div>
+        <div class="tile-slide">
+          <img src="{{asset('assets/img/mini/guardian.jpg')}}" alt="Guardian" />
+        </div>
+        <div class="tile-slide">
+          <img src="{{asset('assets/img/mini/stopit.jpg')}}" alt="Stop it" />
+        </div>
+      </div>
+      <a href="#animhearted" class="btn shadebtn scrollback">My videos</a>
+    </section>
+    <section id="myvideos" class="strip myvideos">
+      <h2><i class="fa fa-fast-forward" aria-label="video-camera"><span class="jhide">&#128249;</span></i> Anim-hearted</h2>
+      <h3>The dance of images, the ballet of discoveries</h3>
+    </section>
+    <section id="animhearted" class="animhearted">
+      <h2 class="hidden">My videos on youtube</h2>
+      <article>
+        <header>
+          <h3>Visit at BeCentral</h3>
+        </header>
+        <iframe src="https://www.youtube.com/embed/Wi7lfhhEZBE" allowfullscreen></iframe>
+        <footer>
+          <p>Some footages made on the run at the BeCentral, where BeCode happens.</p>
+        </footer>
+      </article>
+      <article>
+        <header>
+          <h3>Kultura Nivelles</h3>
+        </header>
+        <iframe src="https://www.youtube.com/embed/nwYyM39vSX8" allowfullscreen></iframe>
+        <footer>
+          <p>Performing street artists from KulturaNivl at Idem Paper.</p>
+        </footer>
+      </article>
+      <article>
+        <header>
+          <h3>Touhou-Online</h3>
+        </header>
+        <iframe src="https://www.youtube.com/embed/vAgMSfFxa2A" allowfullscreen></iframe>
+        <footer>
+          <p>Touhou-Online's stand at the Mang'Azur convention in Toulon.</p>
+        </footer>
+      </article>
+      <a href="./" class="btn shadebtn">Return to the homepage</a>
+    </section>
+{% endblock %}
