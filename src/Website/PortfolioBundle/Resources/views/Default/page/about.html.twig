@@ -1,5 +1,8 @@
-<?php include(V."elem.alltop.php"); ?>
-<main>
+{% extends "WebsitePortfolioBundle:Default:template/base.html.twig" %}
+
+{% block title %}{{ parent() }} {{page_title}}{% endblock %}
+
+{% block sections %}
   <section id="about" class="about fullh">
     <h2 class="hidden"><i class="fa fa-id-card" aria-label="scope"><span class="jhide">&#128301;</span></i> About me</h2>
     <img class="pdp" src="<?= IMG ?>elem/myface.jpg" alt="My face">
@@ -45,5 +48,4 @@
     <p class="clearfix">I started coding in 2005 !</p>
     <a href="./?page=portfolio" class="btn shadebtn">Discover my latest work</a>
   </section>
-</main>
-<?php include(V."elem.footer.php"); ?>
+{% endblock %}

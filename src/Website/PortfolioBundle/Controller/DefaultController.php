@@ -7,42 +7,43 @@ use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
 {
+  // Page render
+  private function loadPage($res,$pagetitle) {
+    return $this
+    ->get('templating')
+    ->render('WebsitePortfolioBundle:Default:page/'.$res.'.html.twig',
+            array(
+              'page_title' => $pagetitle
+            ));
+  } // loadPage() end
   // Homepage
   public function indexAction()
   {
-    $content = $this
-    ->get('templating')
-    ->render('WebsitePortfolioBundle:Default:page/index.html.twig',
-            array(
-              'page_title' => "Welcome !"
-            ));
-    return new Response($content);
+    $res = "index";
+    $pagetitle = "Welcome !";
+    // render
+    $this->loadPage($res,$pagetitle);
   } // indexAction() end
   // Other pages
-  public function pageAction($page) {
+  public function otherAction($page) {
     switch ($page) { // Treatment
       // About
       case 'about': case 'more.php':
-        $page = "about"; 
+        $res = "about"; 
         $pagetitle = "Who am I ?";
         break;
       // Portfolio
       case 'portfolio':
-        $page = "portfolio"; 
+        $res = "portfolio"; 
         $pagetitle = "What do I do ?";
         break;
       // Unknown pages
       default: 
-        $page = "404"; 
+        $res = "404"; 
         $pagetitle = "Wow ! An error occured...";
         break;
     }
     // Render
-    $content = $this
-    ->get('templating')
-    ->render('WebsitePortfolioBundle:Default:page/'.$page.'.html.twig',
-            array(
-              'page_title' => $pagetitle
-            ));
-  }
+    $this->loadPage($res,$pagetitle);
+  } // otherAction() end
 }

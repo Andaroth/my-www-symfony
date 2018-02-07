@@ -11,16 +11,16 @@
   <meta property="og:description" content="{{site_description}}" />
   <meta property="og:image" content="{{site_domain}}/views/assets/img/design/section1bg.jpg" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="<?= V.'assets/css/fontawesome.css'?>">
+  <link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome/') }}fontawesome.css">
   {% block head_slickjs %}
-  <link rel="stylesheet" href="<?= V.'assets/js/slick.css' ?>">
-  <link rel="stylesheet" href="<?= V.'assets/js/slick-theme.css' ?>">
+  <link rel="stylesheet" href="{{ asset('assets/plugins/slick/slick.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/plugins/slick/slick-theme.css') }}">
   {% endblock %}
   {% block head_deviconcss %}
-  <link rel="stylesheet" href="<?= V.'assets/css/devicon.css'?>">
+  <link rel="stylesheet" href="{{ asset('assets/css/') }}devicon.css">
   {% endblock %}
-  <link rel="stylesheet" href="<?= V.'assets/css/style.css'?>">
-  <link rel="stylesheet" media="screen and (max-width:850px)" href="<?= V.'assets/css/mobile.css'?>">
+  <link rel="stylesheet" href="{{ asset('assets/css/') }}style.css">
+  <link rel="stylesheet" media="screen and (max-width:850px)" href="{{ asset('assets/css/') }}mobile.css">
   <link rel="icon" type="image/gif" href="{{ asset('assets/img/ico/fav.gif') }}" />
 {% endblock %}</head>
 
@@ -82,9 +82,9 @@
     ga('send', 'pageview');
   </script>
   <!-- jQ and libs -->
-  <script src="{{ asset('assets/js/') }}jquery-3.2.1.min.js"></script>
-  <script src="{{ asset('assets/js/') }}visible.min.js"></script>
-  <script src="{{ asset('assets/js/') }}slick.min.js"></script>
+  <script src="{{ asset('assets/plugins/') }}jquery-3.2.1.min.js"></script>
+  <script src="{{ asset('assets/plugins/') }}visible.min.js"></script>
+  <script src="{{ asset('assets/plugins/slick/') }}slick.min.js"></script>
   <!-- My Scripts -->
   <script src="{{ asset('assets/js/') }}app.js"></script>
   {% endblock %}
