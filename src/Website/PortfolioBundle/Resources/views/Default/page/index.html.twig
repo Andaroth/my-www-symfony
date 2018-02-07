@@ -53,3 +53,9 @@
     
   </section>
 {% endblock %}
+
+
+{% block jscript %}{{parent()}}
+<script src="{{ asset('assets/js/') }}chart.js"></script>
+<script src="{{ asset('assets/js/') }}elem.chart.js"></script>
+{% endblock %}
