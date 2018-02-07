@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>{% block tags_head %}
+  <meta charset="{{charset}}">
+  <title>{% block title %}{{site_name}}{% endblock %}</title>
+  <meta name="description" content="{{site_description}}">
+  <meta name="keywords" content="{{site_keywords}}">
+  <meta name="wot-verification" content="2cb3aa1199fd42fefd7b"/>
+  <meta name="application-name" content="{{site_name}}" />
+  <meta property="og:title" content="{{site_name}}" />
+  <meta property="og:description" content="{{site_description}}" />
+  <meta property="og:image" content="{{site_domain}}/views/assets/img/design/section1bg.jpg" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="<?= V.'assets/css/fontawesome.css'?>">
+  {% block head_slickjs %}
+  <link rel="stylesheet" href="<?= V.'assets/js/slick.css' ?>">
+  <link rel="stylesheet" href="<?= V.'assets/js/slick-theme.css' ?>">
+  {% endblock %}
+  {% block head_deviconcss %}
+  <link rel="stylesheet" href="<?= V.'assets/css/devicon.css'?>">
+  {% endblock %}
+  <link rel="stylesheet" href="<?= V.'assets/css/style.css'?>">
+  <link rel="stylesheet" media="screen and (max-width:850px)" href="<?= V.'assets/css/mobile.css'?>">
+  <link rel="icon" type="image/gif" href="{{ asset('assets/img/ico/fav.gif') }}" />
+{% endblock %}</head>
+
+<body>{% block body %}
+ 
+  <header class="alltopbar">{% block header %}
+    <h1><a href="./">{{site_name}}</a></h1>
+    <p class="navigatelabel nomobile">Navigate :</p>
+    <ul id="pagenav" class="pagenav">
+      {% block pagenav_home %}{% endblock %}
+      <li><a href="#about" class="scrollback">About<span class="nomobile"> me</span></a></li>
+      <li><a href="#mozaic" class="scrollback"><span class="hidden">Learn more about my </span>Learning</a></li>
+      {% block pagenav_portfolio %}
+      <li><a class="scrollback" href="#screensmatrix">Web<span class="nomobile"> &amp; Apps</span></a></li>
+      <li><a class="scrollback" href="#stillwonders">Photo<span class="nomobile">graph</span>s</a></li>
+      <li><a class="scrollback" href="#animhearted">Videos</a></li>
+      {% endblock %}
+      <li><a href="#contact" id="contactlink" class="contactlink">Contact<span class="nomobile"> me</span></a></li>
+    </ul>
+    <a href="#visitmenu" id="visitlink" class="visitlink"><span class="and rotate">&and;</span> Visit !</a>
+    <nav>
+      <ul id="visitmenu" class="visitmenu">
+        {% block visitmenu %}
+        <li><a href="./">Homepage</a></li>
+        <li><a href="./?page=about">Who am I</a></li>
+        <li><a href="./?page=portfolio">Discover my work</a></li>
+        {% endblock %}
+      </ul>
+    </nav>
+  {% endblock %}</header>
+  
+  <main>
+  {% block sections %}{% endblock %}
+  </main>
+  
+  <footer id="footer" class="footer" onload="this.className+='hidden'">{% block footer %}
+    {% include 'WebsitePortfolioBundle:Default:elem/contact.html.twig' %}
+    <p>Fully handmade with patience, determination but mostly with heart <b aria-label="heart">&#9825;</b> !<br>This is the 2018 Edition (with Symfony) !</p>
+    <p>2005 - {{"now"|date('Y')}} &copy; All rights reserved</p>
+    <a class="scrollback" href="#page_<?= $page ?>">Return to top</a>
+    <p class="nomobile">Follow me on my social networks !</p>
+    <ul class="socials">
+      <li><a class="social-ico" href="https://www.linkedin.com/in/axel-fiolle"><img src="{{ asset('assets/img/ico/linkedin.png') }}" alt="LinkedIn" width="35" height="35" /></a></li>
+      <li><a class="social-ico" href="https://axelandaroth.wordpress.com/"><img src="{{ asset('assets/img/ico/wp.png') }}" alt="Wordpress" width="35" height="35" /></a></li>
+      <li><a class="social-ico nomobile" href="https://www.flickr.com/photos/axel-andaroth/"><img src="{{ asset('assets/img/ico/flickr.png') }}" alt="Flickr" width="35" height="35" /></a></li>
+      <li><a class="social-ico" href="https://github.com/Andaroth"><img src="{{ asset('assets/img/ico/github.png') }}" alt="GitHub" width="35" height="35" /></a></li>
+      <li><a class="social-ico" href="https://codepen.io/Andaroth"><img src="{{ asset('assets/img/ico/codepen.png') }}" alt="CodePen" width="35" height="35" /></a></li>
+    </ul>
+  {% endblock %}</footer>
+
+{% endblock %}</body>
+</html>

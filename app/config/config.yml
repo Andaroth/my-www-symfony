@@ -37,6 +37,15 @@ framework:
 twig:
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
+    globals:
+      lang: '%locale%'
+      charset: UTF-8
+      author: Axel Fiolle
+      author_mail: ax.fiolle@gmail.com
+      site_name: Andaroth
+      site_domain: https://axelfiolle.be
+      site_description: Benefit of my ten years of web development to create your very own custom website !
+      site_keywords: make your website,custom,developper,designer,interface,créer un site web personnalisé,sur mesure,développeur,créateur,professionnel
 
 # Doctrine Configuration
 doctrine:

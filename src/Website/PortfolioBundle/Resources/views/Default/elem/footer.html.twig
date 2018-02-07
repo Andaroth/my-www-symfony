@@ -1,0 +1,16 @@
+ <footer id="footer" class="footer" onload="this.className+='hidden'">
+  {% block footer %}
+  {% include 'WebsitePortfolioBundle:Default:elem/contact.html.twig' %}
+  <p>Fully handmade with patience, determination but mostly with heart <b aria-label="heart">&#9825;</b> !<br>This is the 2018 Edition (with Symfony) !</p>
+  <p>2005 - {{"now"|date('Y')}} &copy; All rights reserved</p>
+  <a class="scrollback" href="#page_<?= $page ?>">Return to top</a>
+  <p class="nomobile">Follow me on my social networks !</p>
+  <ul class="socials">
+    <li><a class="social-ico" href="https://www.linkedin.com/in/axel-fiolle"><img src="{{ asset('assets/img/ico/linkedin.png') }}" alt="LinkedIn" width="35" height="35" /></a></li>
+    <li><a class="social-ico" href="https://axelandaroth.wordpress.com/"><img src="{{ asset('assets/img/ico/wp.png') }}" alt="Wordpress" width="35" height="35" /></a></li>
+    <li><a class="social-ico nomobile" href="https://www.flickr.com/photos/axel-andaroth/"><img src="{{ asset('assets/img/ico/flickr.png') }}" alt="Flickr" width="35" height="35" /></a></li>
+    <li><a class="social-ico" href="https://github.com/Andaroth"><img src="{{ asset('assets/img/ico/github.png') }}" alt="GitHub" width="35" height="35" /></a></li>
+    <li><a class="social-ico" href="https://codepen.io/Andaroth"><img src="{{ asset('assets/img/ico/codepen.png') }}" alt="CodePen" width="35" height="35" /></a></li>
+  </ul>
+  {% endblock %}
+</footer>
