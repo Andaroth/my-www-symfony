@@ -1,14 +1,20 @@
 {% extends "WebsitePortfolioBundle:Default:template/base.html.twig" %}
 
-{% block title %}{{ parent() }} {{page_title}}{% endblock %}
+{% block title %}{{ parent() }} - {{page_title}}{% endblock %}
 
-{% block pagenav_home %}
-<li><a class="scrollback" href="#presentation">UX developer</a></li>
-<li><a href="#skills" class="scrollback">Skills</a></li>
+{% block pagenav %}
+<li><a class="scrollback" href="#allfirst">Home</a></li>
+    <li><a class="scrollback" href="#presentation">UX developer</a></li>
+    <li><a href="#skills" class="scrollback">Skills</a></li>
+{% endblock %}
+
+{% block chartjs %}
+  <script src="{{asset('assets/plugins/chart/chart.js')}}"></script>
+  <script src="{{asset('assets/js/elem.chart.js')}}"></script>
 {% endblock %}
 
 {% block sections %}
-<section class="landing">
+<section id="allfirst" class="landing">
     <div class="box firstbox">
       <h2 class="hidden">Axel Fiolle</h2>
       <div>
@@ -25,11 +31,11 @@
     <h2>10 years of coding</h2>
     <!--<p>I started making websites when I was just a kid. <br>With more than <strong>ten years of experience in web design and developement</strong>, I can help you to <strong>create your own website</strong> and assert your presence online.</p>-->
     <p class="mbottom">I design <b>dreams and experiences</b> since I was just a kid.<br> <!--Bit by bit I build the future of <strong>web interfaces</strong>, for the glory and for the record. <br>-->With more than <strong>ten years of experience in web design and developement</strong>, I can help you to <strong>create your own website</strong> and assert your presence online.</p>
-    <a href="./?page=about" class="btn smallbtn">About me<span class="hidden"> about me</span></a>
+    <a href="./about" class="btn smallbtn">About me<span class="hidden"> about me</span></a>
   </section>
   <section id="skills" class="skills">
     <h2><i class="fas fa-graduation-cap" aria-label="graduation-cap"><span class="jhide">&#127891;</span></i> Face my skills</h2>
-    <h3>A little graphic worth <a href="./?page=about">a long talk</a></h3>
+    <h3>A little graphic worth <a href="./about">a long talk</a></h3>
     <div id="canvagrid" class="canvagrid grid two-c">
       <div id="chartTrigger">
         <h4>Front-end</h4>
@@ -49,13 +55,7 @@
       </div>
       
     </div>
-    <a href="./?page=portfolio" class="btn shadebtn">Check what I made</a>
+    <a href="./portfolio" class="btn shadebtn">Check what I made</a>
     
   </section>
-{% endblock %}
-
-
-{% block jscript %}{{parent()}}
-<script src="{{ asset('assets/plugins/chart/') }}chart.js"></script>
-<script src="{{ asset('assets/js/') }}elem.chart.js"></script>
 {% endblock %}

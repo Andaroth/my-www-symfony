@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{lang}}">
-<head>{% block tags_head %}
+<head>
+{% block tags_head %}
   <meta charset="{{charset}}">
   <title>{% block title %}{{site_name}}{% endblock %}</title>
   <meta name="description" content="{{site_description}}">
@@ -9,46 +10,36 @@
   <meta name="application-name" content="{{site_name}}" />
   <meta property="og:title" content="{{site_name}}" />
   <meta property="og:description" content="{{site_description}}" />
-  <meta property="og:image" content="{{site_domain}}/views/assets/img/design/section1bg.jpg" />
+  <meta property="og:image" content="{{asset('/assets/img/design/section1bg.jpg')}}" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome/') }}fontawesome.css">
-  {% block head_slickjs %}
-  <link rel="stylesheet" href="{{ asset('assets/plugins/slick/slick.css') }}">
-  <link rel="stylesheet" href="{{ asset('assets/plugins/slick/slick-theme.css') }}">
-  {% endblock %}
-  {% block head_deviconcss %}
-  <link rel="stylesheet" href="{{ asset('assets/css/') }}devicon.css">
-  {% endblock %}
-  <link rel="stylesheet" href="{{ asset('assets/css/') }}style.css">
-  <link rel="stylesheet" media="screen and (max-width:850px)" href="{{ asset('assets/css/') }}mobile.css">
-  <link rel="icon" type="image/gif" href="{{ asset('assets/img/ico/fav.gif') }}" />
+  <link rel="stylesheet" href="{{asset('assets/plugins/fontawesome/fontawesome.css')}}">
+{% block head_slickjs %}{% endblock %}
+{% block head_deviconcss %}{% endblock %}
+  <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+  <link rel="stylesheet" media="screen and (max-width:850px)" href="{{asset('assets/css/mobile.css')}}">
+  <link rel="icon" type="image/gif" href="{{asset('assets/img/ico/fav.gif')}}" />
 {% endblock %}</head>
 
-<body>{% block body %}
+<body id="pagetop">
+{% block body %}
 
-  <header class="alltopbar">{% block header %}
+  <header class="alltopbar">   
+{% block header %}
     <h1><a href="./">{{site_name}}</a></h1>
     <p class="navigatelabel nomobile">Navigate :</p>
     <ul id="pagenav" class="pagenav">
-      {% block pagenav_home %}{% endblock %}
-      <li><a href="#about" class="scrollback">About<span class="nomobile"> me</span></a></li>
-      <li><a href="#mozaic" class="scrollback"><span class="hidden">Learn more about my </span>Learning</a></li>
-      {% block pagenav_portfolio %}
-      <li><a class="scrollback" href="#screensmatrix">Web<span class="nomobile"> &amp; Apps</span></a></li>
-      <li><a class="scrollback" href="#stillwonders">Photo<span class="nomobile">graph</span>s</a></li>
-      <li><a class="scrollback" href="#animhearted">Videos</a></li>
-      {% endblock %}
-      <li><a href="#contact" id="contactlink" class="contactlink">Contact<span class="nomobile"> me</span></a></li>
+    {% block pagenav %}{% endblock %}
+    <li><a href="#contact" id="contactlink" class="contactlink">Contact<span class="nomobile"> me</span></a></li>
     </ul>
     <a href="#visitmenu" id="visitlink" class="visitlink"><span class="and rotate">&and;</span> Visit !</a>
     <nav>
       <ul id="visitmenu" class="visitmenu">
-        {% block visitmenu %}
-        <li><a href="./">Homepage</a></li>
-        <li><a href="./?page=about">Who am I</a></li>
-        <li><a href="./?page=portfolio">Discover my work</a></li>
-        {% endblock %}
-      </ul>
+    {% block visitmenu %}
+    <li><a href="./">Homepage</a></li>
+        <li><a href="./about">Who am I</a></li>
+        <li><a href="./portfolio">Discover my work</a></li>
+    {% endblock %}
+    </ul>
     </nav>
   {% endblock %}</header>
 
@@ -57,21 +48,22 @@
   </main>
 
   <footer id="footer" class="footer" onload="this.className+='hidden'">{% block footer %}
+   
     {% include 'WebsitePortfolioBundle:Default:elem/contact.html.twig' %}
     <p>Fully handmade with patience, determination but mostly with heart <b aria-label="heart">&#9825;</b> !<br>This is the 2018 Edition (with Symfony) !</p>
     <p>2005 - {{"now"|date('Y')}} &copy; All rights reserved</p>
-    <a class="scrollback" href="#page_<?= $page ?>">Return to top</a>
+    <a class="scrollback" href="#pagetop">Return to top</a>
     <p class="nomobile">Follow me on my social networks !</p>
     <ul class="socials">
-      <li><a class="social-ico" href="https://www.linkedin.com/in/axel-fiolle"><img src="{{ asset('assets/img/ico/linkedin.png') }}" alt="LinkedIn" width="35" height="35" /></a></li>
-      <li><a class="social-ico" href="https://axelandaroth.wordpress.com/"><img src="{{ asset('assets/img/ico/wp.png') }}" alt="Wordpress" width="35" height="35" /></a></li>
-      <li><a class="social-ico nomobile" href="https://www.flickr.com/photos/axel-andaroth/"><img src="{{ asset('assets/img/ico/flickr.png') }}" alt="Flickr" width="35" height="35" /></a></li>
-      <li><a class="social-ico" href="https://github.com/Andaroth"><img src="{{ asset('assets/img/ico/github.png') }}" alt="GitHub" width="35" height="35" /></a></li>
-      <li><a class="social-ico" href="https://codepen.io/Andaroth"><img src="{{ asset('assets/img/ico/codepen.png') }}" alt="CodePen" width="35" height="35" /></a></li>
+      <li><a class="social-ico" href="https://www.linkedin.com/in/axel-fiolle"><img src="{{asset('assets/img/ico/linkedin.png')}}" alt="LinkedIn" width="35" height="35" /></a></li>
+      <li><a class="social-ico" href="https://axelandaroth.wordpress.com/"><img src="{{asset('assets/img/ico/wp.png')}}" alt="Wordpress" width="35" height="35" /></a></li>
+      <li><a class="social-ico nomobile" href="https://www.flickr.com/photos/axel-andaroth/"><img src="{{asset('assets/img/ico/flickr.png')}}" alt="Flickr" width="35" height="35" /></a></li>
+      <li><a class="social-ico" href="https://github.com/Andaroth"><img src="{{asset('assets/img/ico/github.png')}}" alt="GitHub" width="35" height="35" /></a></li>
+      <li><a class="social-ico" href="https://codepen.io/Andaroth"><img src="{{asset('assets/img/ico/codepen.png')}}" alt="CodePen" width="35" height="35" /></a></li>
     </ul>
   {% endblock %}</footer>
 
-  {% block jscript %}
+{% block jscript %}
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -82,12 +74,12 @@
     ga('send', 'pageview');
   </script>
   <!-- jQ and libs -->
-  <script src="{{ asset('assets/plugins/') }}jquery-3.2.1.min.js"></script>
-  <script src="{{ asset('assets/plugins/') }}visible.min.js"></script>
-  <script src="{{ asset('assets/plugins/slick/') }}slick.min.js"></script>
+  <script src="{{asset('assets/plugins/jquery-3.2.1.min.js')}}"></script>
+  <script src="{{asset('assets/plugins/visible.min.js')}}"></script>
+{% block slickjs %}{% endblock %}
   <!-- My Scripts -->
-  <script src="{{ asset('assets/js/') }}app.js"></script>
+  <script src="{{asset('assets/js/app.js')}}"></script>
+{% block chartjs %}{% endblock %}
   {% endblock %}
-
 {% endblock %}</body>
 </html>

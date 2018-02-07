@@ -8,10 +8,8 @@ $(document).ready(function(){
   $(".jpacity").addClass("nopacity");
   if (scrollTop == 0) {
     $("#landingscroll").removeClass("hide");
-    $("footer").addClass("hidden");
   } else {
     $("#landingscroll").addClass("hide");
-    $("footer").removeClass("hidden");
   }
   // FUNCTIONS ---------------------------------------
   function scrollTo(target,speed,fade) {
@@ -32,15 +30,9 @@ $(document).ready(function(){
     $("span.and").addClass("rotate");
     scrollTop = $(document).scrollTop();
     console.log("scrollTop : "+scrollTop);
-    if (scrollTop == 0) {
-      $("#landingscroll").removeClass("hide");
-      $("footer").addClass("hidden");
+    if (scrollTop == 0) { $("#landingscroll").removeClass("hide");
     } else {
       $("#landingscroll").addClass("hide");
-      $("footer").removeClass("hidden");
-    }
-    if ($("#mozaicTrigger").visible(true)){
-      $(".skill-tile").removeClass("nopacity");
     }
   });
   // CLICKS ---------------------------------------

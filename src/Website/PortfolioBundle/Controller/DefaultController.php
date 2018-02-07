@@ -19,10 +19,9 @@ class DefaultController extends Controller
   // Homepage
   public function indexAction()
   {
-    $res = "index";
-    $pagetitle = "Welcome !";
     // render
-    $this->loadPage($res,$pagetitle);
+    $page = $this->loadPage("index","Welcome !");
+    return new Response($page);
   } // indexAction() end
   // Other pages
   public function otherAction($page) {
@@ -44,6 +43,7 @@ class DefaultController extends Controller
         break;
     }
     // Render
-    $this->loadPage($res,$pagetitle);
+    $page = $this->loadPage($res,$pagetitle);
+    return new Response($page);
   } // otherAction() end
 }

@@ -1,9 +1,9 @@
 website_portfolio_homepage:
-    path:     /
+    path: /
     defaults: 
       _controller: WebsitePortfolioBundle:Default:index
 
 website_portfolio_otherpage:
-    path:     /{page}
+    path: /{page}
     defaults: 
       _controller: WebsitePortfolioBundle:Default:other
