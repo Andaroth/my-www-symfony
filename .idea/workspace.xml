@@ -1,283 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59da0018-5a6e-4689-aaec-8a04ef1f0b9e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
-      <change beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
-      <change beforePath="$PROJECT_DIR$/web/project/blackwhite/Ubuntu.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/blackwhite/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/blackwhite/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/blackwhite/jquery-3.2.1.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/blackwhite/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/cookie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/cookiejar.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/cordova-www/assets/cookie.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/cordova-www/assets/cookie2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/cordova-www/assets/rain.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/cordova-www/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/cordova-www/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/cordova-www/js/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/cordova-www/js/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/rain.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/cookiemaster/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/.htaccess" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/css/jquery-ui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/css/viewport.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/assets/change.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/assets/expand.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/assets/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/assets/nopic.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/assets/ui-icons_444444_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/assets/ui-icons_555555_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/assets/ui-icons_777620_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/assets/ui-icons_777777_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/assets/ui-icons_cc0000_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/assets/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/banner.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/converse_black_high_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/converse_black_high_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/converse_black_low_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/converse_black_low_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/converse_white_high_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/converse_white_high_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/converse_white_low_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/converse_white_low_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/enfanthautenoir.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_black_high_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_black_high_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_black_low_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_black_low_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_blue_high_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_blue_high_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_blue_low_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_blue_low_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_bordeau_high_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_bordeau_high_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_darkblue_high_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_darkblue_high_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_darkblue_low_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_darkblue_low_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_fullblack_low_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_fullblack_low_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_grey_high_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_grey_high_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_grey_low_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_grey_low_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_pink_high_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_pink_high_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_pink_low_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_pink_low_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_white_high_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_white_high_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_white_low_L.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/noname_white_low_R.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/img/og_img.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/html2canvas.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/interact.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/jquery-rotate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/jquery-touch-punch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/jquery-ui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/jquery.nicescroll.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/lang/en_lang.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/lang/fr_lang.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/stripe.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/js/zoomico.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/.coveralls.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/VERSION" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/build.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/composer.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/data/ca-certificates.crt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/data/test.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/examples/oauth.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/init.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Account.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/AlipayAccount.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/ApiRequestor.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/ApiResource.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/ApiResponse.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/ApplePayDomain.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/ApplicationFee.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/ApplicationFeeRefund.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/AttachedObject.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Balance.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/BalanceTransaction.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/BankAccount.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/BitcoinReceiver.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/BitcoinTransaction.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Card.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Charge.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Collection.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/CountrySpec.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Coupon.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Customer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Dispute.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/EphemeralKey.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/Api.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/ApiConnection.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/Authentication.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/Base.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/Card.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/InvalidRequest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/OAuth/InvalidGrant.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/OAuth/InvalidRequest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/OAuth/InvalidScope.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/OAuth/OAuthBase.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/OAuth/UnsupportedGrantType.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/OAuth/UnsupportedResponseType.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/Permission.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/RateLimit.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Error/SignatureVerification.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Event.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/ExternalAccount.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/FileUpload.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/HttpClient/ClientInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/HttpClient/CurlClient.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Invoice.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/InvoiceItem.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/JsonSerializable.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/LoginLink.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/OAuth.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Order.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/OrderReturn.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Payout.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Plan.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Product.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Recipient.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/RecipientTransfer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Refund.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/SKU.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/SingletonApiResource.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Source.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Stripe.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/StripeObject.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Subscription.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/SubscriptionItem.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/ThreeDSecure.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Token.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Transfer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/TransferReversal.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Util/AutoPagingIterator.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Util/DefaultLogger.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Util/LoggerInterface.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Util/RequestOptions.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Util/Set.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Util/Util.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/Webhook.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/lib/WebhookSignature.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/phpunit.no_autoload.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/phpunit.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/AccountTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/ApiRequestorTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/ApplePayDomainTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/ApplicationFeeRefundTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/ApplicationFeeTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/AttachedObjectTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/AuthenticationErrorTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/BalanceTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/BalanceTransactionTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/BankAccountTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/BitcoinReceiverTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/CardErrorTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/ChargeTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/CollectionTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/CountrySpecTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/CouponTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/CurlClientTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/CustomerTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/DiscountTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/DisputeTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/EphemeralKeyTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/ErrorTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/ExternalAccountTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/FileUploadTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/InvalidRequestErrorTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/InvoiceTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/OAuthTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/PayoutTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/PermissionsErrorTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/PlanTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/ProductTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/RateLimitErrorTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/RecipientTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/RefundTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/RequestOptionsTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/SourceTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/StripeObjectTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/SubscriptionItemTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/SubscriptionTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/TestCase.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/ThreeDSecureTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/TokenTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/TransferReversalTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/TransferTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/UtilDefaultLoggerTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/UtilTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/WebhookTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/bootstrap.no_autoload.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/Stripe/tests/bootstrap.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/config.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/getShoe.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/incl/pay.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/lang/en_lang.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/lang/fr_lang.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/lang/lang.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/php/meiling.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/purchase.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1502308758_rightthangery.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1502308761_rightthangery.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1502308837_rightThenking.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1502793313_rightlol5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1502794094_leftthonkeng.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1502794094_rightthangery.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1504735387_leftpdp dracofeu.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1504735387_rightpdp 02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1506427124_rightlol3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1507108238_left15675967_355564521478018_2880972679341674007_o.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1507108238_rightpdp 05.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1508238854_rightlol3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1508239106_leftlol2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1508239106_rightlol.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1508239339_rightrage1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1513031399_right242476_2120201567995_2580014_o.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1513031463_right34-12.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1513375458_left18-10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1513375458_rightpdp dracofeu.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/shoeconceptor/up/1518015725_right_1_4d93eaabd28b964cc9af19be3cca119f.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/img/gitsalie_en.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/oneechan/img/cosmicw.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/oneechan/img/transp_ct.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/oneechan/img/transp_ft.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/oneechan/img/transp_header.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/oneechan/img/transp_navbar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/oneechan/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/oneechan/template01.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/pointlessbutton/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/purebeauty/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/purebeauty/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/project/webinutile/purebeauty/style.css" afterPath="" />
-    </list>
+    <list default="true" id="59da0018-5a6e-4689-aaec-8a04ef1f0b9e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -294,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/Website/PortfolioBundle/Resources/views/Default/page/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-288">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -487,16 +211,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518038160796</updated>
-      <workItem from="1518038162702" duration="354000" />
+      <workItem from="1518038162702" duration="2056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354000" />
+    <option name="totallyTimeSpent" value="2056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="290" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -540,7 +263,7 @@
     <entry file="file://$PROJECT_DIR$/src/Website/PortfolioBundle/Resources/views/Default/page/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
