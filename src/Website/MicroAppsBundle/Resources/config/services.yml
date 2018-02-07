@@ -1,0 +1,4 @@
+services:
+#    website_micro_apps.example:
+#        class: Website\MicroAppsBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

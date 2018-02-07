@@ -1,0 +1,4 @@
+website_micro_apps_homepage:
+    path: /shoeconceptor/
+    defaults: 
+      _controller: WebsiteMicroAppsBundle:Default:shoe
