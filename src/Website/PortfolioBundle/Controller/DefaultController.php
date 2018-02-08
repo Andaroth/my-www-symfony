@@ -3,6 +3,7 @@
 namespace Website\PortfolioBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
@@ -12,9 +13,9 @@ class DefaultController extends Controller
     return $this
     ->get('templating')
     ->render('WebsitePortfolioBundle:Default:page/'.$res.'.html.twig',
-            array(
-              'page_title' => $pagetitle
-            ));
+    array(
+      'page_title' => $pagetitle
+    ));
   } // loadPage() end
   // Homepage
   public function indexAction()
@@ -46,4 +47,9 @@ class DefaultController extends Controller
     $page = $this->loadPage($res,$pagetitle);
     return new Response($page);
   } // otherAction() end
+  
+  public function mailingAction($message) {
+    $mailing = $this->container->get('website_portfolio.mailer');
+    $mailing->sendMail($name,$mail,$msg);
+  }
 }

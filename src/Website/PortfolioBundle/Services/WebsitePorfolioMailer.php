@@ -4,14 +4,18 @@ namespace Website\PortfolioBundle\Services\Mailer;
 
 class WebsitePortfolioMailer
 {
-  public function sendMail($name,$mail,$msg, \Swift_Mailer $mailer) {
-    $message = (new \Swift_Message($msg))
-    ->setFrom($mail)
+  private $mailer, $name, $from, $msg;
+  public function __construct(\Swift_Mailer $mailer,$name,$from,$msg)
+  {
+    $this->mailer = $mailer;
+  }
+  public function sendMail(\Swift_Mailer $mailer,$name,$from,$msg) {
+    $message = (new \Swift_Message("[ax.be] ".$name))
+    ->setFrom($from)
     ->setTo('ax.fiolle@gmail.com')
     ->setBody(
         $this->render($msg),
         'text/plain');
-    $action = $mailer->send($message);
-    return $action;
+    return $mailer->send($message);
   } // sendMail() end
 } // class end

@@ -1,4 +1,8 @@
 services:
     website_portfolio.mailer:
         class: Website\PortfolioBundle\Services\WebsitePortfolioMailer
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+        arguments: 
+            - "@mailer"
+            - "%name%"
+            - "%from%"
+            - "%msg%"
