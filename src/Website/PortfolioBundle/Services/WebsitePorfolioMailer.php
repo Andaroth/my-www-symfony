@@ -2,26 +2,26 @@
 
 namespace Website\PortfolioBundle\Services\Mailer;
 
-use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\RequestStack;
+// use Symfony\Component\HttpFoundation\Request;
 
 class WebsitePortfolioMailer
 {
   private $mailer;
-  public function __construct(\Swift_Mailer $mailer)
+  protected $requestDatas; 
+  
+  public function __construct(\Swift_Mailer $mailer, RequestStack $requestDatas)
   {
+    // prepare
     $this->mailer = $mailer;
-  }
-  public function sendMail(\Swift_Mailer $mailer,$name,$from,$msg) {
-    $message = (new \Swift_Message("[ax.be] ".$name))
-    ->setFrom($from)
-    ->setTo('ax.fiolle@gmail.com')
-    ->setBody(
-      $this->render($msg),
-      'text/plain');
-    return $mailer->send($message);
-  } // sendMail() end
-  public function prepareMail(Request $request)
-  {
+    $this->requestDatas = $requestDatas;
+    $request = $this->requestDatas->getCurrentRequest();
+    // retrieve vars
+    $name = $request['name'];
+    $from = $request['from'];
+    $msg = $request['msg'];
+    
+    /*// isForm method :
     $defaultData = array(
       'name' => 'no name',
       'email' => 'no mail',
@@ -29,7 +29,7 @@ class WebsitePortfolioMailer
     );
     $form = $this->createFormBuilder($defaultData)
     ->add('name', TextType::class)
-    ->add('email', EmailType::class)
+    ->add('from', EmailType::class)
     ->add('msg', TextareaType::class)
     ->add('send', SubmitType::class)
     ->getForm();
@@ -39,10 +39,21 @@ class WebsitePortfolioMailer
     if ($form->isSubmitted() && $form->isValid()) {
       $data = $form->getData();
       $name = $data['name']; 
-      $from = $data['email'];
+      $from = $data['from'];
       $msg = $data['msg'];
-    }
-    // next
-    $this->sendMail()
-  } // prepareMail end
+    } 
+    */ // isForm method end
+    return $this->sendAction($mailer,$name,$from,$msg); 
+  } // constructor end
+  public function sendAction($mailer,$name,$from,$msg) {
+    // make message
+    $message = (new \Swift_Message("[ax.be] ".$name))
+    ->setFrom($from)
+    ->setTo('ax.fiolle@gmail.com')
+    ->setBody(
+      $this->render($msg),
+      'text/plain');
+    // send message
+    return $mailer->send($message);
+  } // sendMail() end
 } // class end

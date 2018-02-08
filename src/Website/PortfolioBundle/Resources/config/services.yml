@@ -3,6 +3,3 @@ services:
         class: Website\PortfolioBundle\Services\WebsitePortfolioMailer
         arguments: 
             - "@mailer"
-            - "%name%"
-            - "%from%"
-            - "%msg%"
