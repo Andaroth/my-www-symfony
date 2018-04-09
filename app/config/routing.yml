@@ -1,6 +1,6 @@
 website_micro_apps:
     resource: "@WebsiteMicroAppsBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   projets/
 
 website_portfolio:
     resource: "@WebsitePortfolioBundle/Resources/config/routing.yml"
